@@ -1,3 +1,8 @@
+---
+name: insight-extractor
+description: Parse the built-in /insights report at ~/.claude/usage-data/report.html and extract actionable items into structured markdown - action items, useful prompts, technical learnings, workflow improvements, tool discoveries, and automation candidates. Saves to a configurable insights folder, links from the daily note, updates a MoC, and creates task files for automation candidates. Triggers on "/insight-extractor", or requests to extract, process, or persist the output of /insights. Supports --interactive and --configure modes.
+---
+
 # Insight Extractor Skill
 
 Parse the built-in `/insights` report and extract actionable items into structured, trackable markdown files.
